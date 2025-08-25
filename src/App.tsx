@@ -25,15 +25,6 @@ import SeasonalSummer from "./pages/SeasonalSummer";
 import OccasionsBirthday from "./pages/OccasionsBirthday";
 import OccasionsWedding from "./pages/OccasionsWedding";
 import BouquetDetail from "./pages/BouquetDetail";
-import Roses from "./pages/Roses";
-import Tulips from "./pages/Tulips";
-import Peonies from "./pages/Peonies";
-import MixedBouquets from "./pages/MixedBouquets";
-import SeasonalSpring from "./pages/SeasonalSpring";
-import SeasonalSummer from "./pages/SeasonalSummer";
-import OccasionsBirthday from "./pages/OccasionsBirthday";
-import OccasionsWedding from "./pages/OccasionsWedding";
-import BouquetDetail from "./pages/BouquetDetail";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
