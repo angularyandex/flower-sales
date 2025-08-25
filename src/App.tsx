@@ -25,6 +25,15 @@ import SeasonalSummer from "./pages/SeasonalSummer";
 import OccasionsBirthday from "./pages/OccasionsBirthday";
 import OccasionsWedding from "./pages/OccasionsWedding";
 import BouquetDetail from "./pages/BouquetDetail";
+import Roses from "./pages/Roses";
+import Tulips from "./pages/Tulips";
+import Peonies from "./pages/Peonies";
+import MixedBouquets from "./pages/MixedBouquets";
+import SeasonalSpring from "./pages/SeasonalSpring";
+import SeasonalSummer from "./pages/SeasonalSummer";
+import OccasionsBirthday from "./pages/OccasionsBirthday";
+import OccasionsWedding from "./pages/OccasionsWedding";
+import BouquetDetail from "./pages/BouquetDetail";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -48,6 +57,15 @@ const App = () => (
           <Route path="/custom-order" element={<CustomOrder />} />
           <Route path="/corporate" element={<Corporate />} />
           <Route path="/care-guide" element={<CareGuide />} />
+          <Route path="/roses" element={<Roses />} />
+          <Route path="/tulips" element={<Tulips />} />
+          <Route path="/peonies" element={<Peonies />} />
+          <Route path="/mixed-bouquets" element={<MixedBouquets />} />
+          <Route path="/seasonal/spring" element={<SeasonalSpring />} />
+          <Route path="/seasonal/summer" element={<SeasonalSummer />} />
+          <Route path="/occasions/birthday" element={<OccasionsBirthday />} />
+          <Route path="/occasions/wedding" element={<OccasionsWedding />} />
+          <Route path="/bouquet/:id" element={<BouquetDetail />} />
           <Route path="/roses" element={<Roses />} />
           <Route path="/tulips" element={<Tulips />} />
           <Route path="/peonies" element={<Peonies />} />
